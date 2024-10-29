@@ -9,6 +9,10 @@ public class Home {
     locatedBy("//img[@class='pop-close-btn']");
     public static final Target ClOSENOTIFICAQTION =Target.the("Close notification").
             locatedBy("//img[@class='_24EHh']");
+    public static final Target SEARCH =Target.the("Close notification").
+            locatedBy("//input[@type='button']");
+    public static final Target CLOSESEARCH =Target.the("Close notification").
+            locatedBy("//div[@class='esm--upload-close--1x0SREz']//img");
 
 }
 

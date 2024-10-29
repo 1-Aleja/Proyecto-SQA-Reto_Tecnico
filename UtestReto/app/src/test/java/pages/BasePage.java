@@ -17,7 +17,7 @@ public class BasePage extends PageObject {
     public BasePage() {
         WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver();
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
     public void navigateTo(String url) {

@@ -23,12 +23,14 @@ public class RegisterProductReto implements Task {
                 Open.url(url),
                 Click.on(Home.ClOSEPOPUP),
                 Click.on(Home.ClOSENOTIFICAQTION),
-                SendKeys.of("dinosaurio").into(Home.SEARCHBAR),
-                Click.on(Product.SELECTPRODUCT)
-
-
-
-
+                SendKeys.of("Mesa al aire libre").into(Home.SEARCHBAR),
+                Click.on(Home.SEARCH),
+                Click.on(Product.SELECTPRODUCT),
+                Click.on(Product.SHOPPINGCART),
+                Click.on(Product.GOTOSHOPPINGCART),
+                Click.on(Product.ADDPRODUCT),
+                Click.on(Product.ADDPRODUCT),
+                Click.on(Product.ADDPRODUCT)
         );
     }
     public static RegisterProductReto makeinformation(){
